@@ -1,7 +1,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Project 2: 
+# Express Movies: 
 
 # Interactive Full-Stack Project
 
