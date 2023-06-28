@@ -1,0 +1,39 @@
+<div class="movie-info">
+
+  <h1 class="movie-name">{{movie1.title}}</h1>
+  <img src={{movie1.image}} alt="poster" />
+  <p class="p1">{{movie1.description}}</p>
+  <div class="movie-id">{{movie1.id}}</div>
+
+</div>
+
+<div class="review-info">
+  {{#each movie1.reviews as |review| }}
+<div class="row mb-4 project">
+    <div class="col-md-5">
+        <p>
+            {{review.review}}
+        </p>
+        <p>Created by {{review.user_id}} on {{format_date review.date_created}}</p>
+    </div>
+</div>
+{{/each}}
+</div>
+
+<!-- Form -->
+<div class="form1">
+  <div class="field">
+    <label class="label">Add your Review Here</label>
+    <div class="control">
+      <textarea class="textarea" id="review-text" placeholder="Textarea"></textarea>
+    </div>
+  </div>
+
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-link" id="submit-review">Submit</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/moviepage.js"></script>

@@ -1,0 +1,139 @@
+/* index */
+
+.button.is-primary {
+  background-color: #34b3f1;
+}
+
+.button.is-primary:hover {
+  background-color: gold;
+}
+
+.button.is-light {
+  background-color: gold;
+}
+
+.button.is-light:hover {
+  background-color: #34b3f1;
+}
+
+.hero-body {
+  background-color: #f15412;
+}
+
+.header {
+  padding: 50px 100px;
+}
+
+/* Contact us form */
+.button.is-success {
+  background-color: #34b3f1;
+}
+
+.button.is-success:hover {
+  background-color: gold;
+}
+
+/* Cards */
+.container{
+  padding:0px 100px 50px 100px;
+}
+
+/* Review's form */
+
+.review-info {
+  padding-left: 100px;
+}
+
+.form1 {
+  padding: 50px 250px 250px 250px;
+}
+
+.label1 {
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+.button.is-link {
+  background-color: #34b3f1;
+}
+
+.button.is-link:hover {
+  background-color: gold;
+}
+
+.button.is-link.is-light {
+  background-color: gold;
+}
+
+.button.is-link.is-light:hover {
+  background-color: #34b3f1;
+}
+
+/* Log in form */
+
+.form2 {
+  padding: 50px 250px 250px 250px;
+}
+
+.title2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.button.is-success {
+  background-color: #34b3f1;
+}
+
+.button.is-success:hover {
+  background-color: gold;
+}
+
+/* Sign in form */
+
+.form3 {
+  padding: 50px 250px 250px 250px;
+}
+
+/* Movie-info */
+
+.movie-info {
+  padding: 50px 250px 50px 250px;
+}
+
+.movie-id {
+  padding: 0px;
+  color: white;
+}
+
+.movie-name {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desc {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.p1 {
+  padding-bottom: 25px;
+}
+
+.p2 {
+  padding-top: 25px;
+}
+
+/* Style of the profile handlebar */
+
+div.columns {
+  margin-top: 80px;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.my-profile {
+  width: 200px;
+}
